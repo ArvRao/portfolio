@@ -1,0 +1,35 @@
+body {
+    background-color: #ecf0f1;
+}
+
+#quote3 {
+    background-color: black;
+    font-size: 32px;
+    color: white;
+    line-height: 100%;
+    position: relative;
+    font-family: Didot;
+    width: 700px;
+    margin: 10% auto;
+    padding: 100px;
+
+    &:before {
+        content: '\201C';
+        position: absolute;
+        top: -10px;
+        left: 0;
+        font-family: Arial, sans-serif;
+        font-size: 82px;
+        font-style: normal;
+    }
+
+    &:after {
+        content: '\201C';
+        position: absolute;
+        bottom: -60px;
+        right: 0;
+        font-family: Arial, sans-serif;
+        font-size: 82px;
+        font-style: normal;
+    }
+}
